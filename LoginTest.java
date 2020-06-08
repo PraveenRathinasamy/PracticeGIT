@@ -49,7 +49,6 @@ public class LoginTest extends ExecutionContext implements LoginLaunch {
         }
     }
 
-    /*Maximizing the window, and entering the url*/
     public void e_openbrowserenterurl() {
         BrowserInitHelper.getInstance().manage().window().maximize();
         BrowserInitHelper.getInstance().get(url);
